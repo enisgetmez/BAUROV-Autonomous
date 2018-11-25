@@ -27,6 +27,7 @@ Install mavproxy module and everything else needed
 
 command : 
 
+![converter.py](https://github.com/enisgetmez/BAUROV-Autonomous/blob/master/images/converter.png)
 `python converter.py R G B `
 
 Example :
