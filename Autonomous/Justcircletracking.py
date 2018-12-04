@@ -30,7 +30,7 @@ while(True):
 	gray = cv2.dilate(gray,kernel,iterations = 1)
 
 #	circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 20, param1=40, param2=45, minRadius=0, maxRadius=0) # python3 icin 
-    circles = cv2.HoughCircles(gray, cv2.cv.CV_HOUGH_GRADIENT, 1, 20, param1=50, param2=30, minRadius=0, maxRadius=0) #python2 icin
+        circles = cv2.HoughCircles(gray, cv2.cv.CV_HOUGH_GRADIENT, 1, 20, param1=50, param2=30, minRadius=0, maxRadius=0) #python2 icin
     # (x−xcenter)2+(y−ycenter)2=r2   (xcenter,ycenter) 
 	# kalibre
 	# daireyi isle
