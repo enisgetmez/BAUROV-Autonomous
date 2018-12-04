@@ -31,7 +31,6 @@ def set_rc_channel_pwm(id, pwm=1500):
             *rc_channel_values)                 
 
 
-cap = cv2.VideoCapture(0) 
 ret, frame = cap.read()
 
 #sari rengin algilanmasi
@@ -76,7 +75,8 @@ while True:
      print(x)
      print("y : ")
      print(y)
-	
+     print("büyüklük : ")
+     print(r)
 
 	set_rc_channel_pwm(3, 1540) # robotun sabit kalabilmesi icin
 	time.sleep(5) # 5 saniyede tekrarla
