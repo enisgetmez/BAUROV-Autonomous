@@ -6,7 +6,8 @@ import argparse
 import cv2
 import time
 import imutils
-
+x = 0 #programın ileride hata vermemesi için x 0 olarak tanımlıyorum
+y = 0 # programın ileride hata vermemesi için y 0 olarak tanımlıyorum
 cap = cv2.VideoCapture(0) # webcamin bagli oldugu port varsayilan 0 
 
 ret, frame = cap.read() # kameradan gelen görüntülerin alınması
